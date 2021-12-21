@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.bg{
+    background-color: #FAF0E5;
+    border-radius: 1.5rem;
+    width: 800px;
+    height: 430;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    background-image: url('./src/plants.png');
+    background-size: cover;
+    background-repeat: round;
+}
+
+.plantas{
+    border-radius: 1.8rem;
+    z-index: 1;
+}
+
+.frame{
+    width: 400px;
+    align-content: flex-end;
+    position: relative;
+    z-index: 2;
+}
+svg path:hover{
+    fill: #ea0361;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#estado {
+    color: #ea0361;
+    position: absolute;
+    left: 220px; top: 220px;
+    font-size: 1.5rem;
+    justify-content: center;
+}
